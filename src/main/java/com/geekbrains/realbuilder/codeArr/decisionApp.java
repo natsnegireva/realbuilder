@@ -1,6 +1,7 @@
 package com.geekbrains.realbuilder.codeArr;
 
 public class decisionApp {
+
     // Ошибки:
     // 1. не допускается многократное наследование, только многократная имплементация (класс Lorry)
     // 2. у метода Car не определен тип параметра Engine или внутренний класс, интерфейс, enum Engine, еще и public
