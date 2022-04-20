@@ -1,6 +1,5 @@
 package com.geekbrains.realbuilder.polymorphism;
 
-
 public class Circle extends Figura {
     int a;
 

@@ -1,6 +1,5 @@
 package com.geekbrains.realbuilder.polymorphism;
 
-
 public class Square extends Figura {
     int a;
 
