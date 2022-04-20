@@ -138,7 +138,6 @@ public class Person {
             }
             return person;
         }
-
         // обязательные параметры ФИО
         private boolean validatePerson() {
             return (firstName != null && lastName != null && middleName != null
