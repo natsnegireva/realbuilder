@@ -1,7 +1,6 @@
 package com.geekbrains.realbuilder.codeArr;
 
 public class LightWeightCar extends Car implements Moveable {
-
     @Override
     void open() {
         System.out.println("Car is open");

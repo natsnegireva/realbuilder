@@ -14,5 +14,4 @@ public class Square extends Figura {
     public void PrintArea(){
         System.out.println("Площадь квадрата: "+ Area());
     }
-
 }

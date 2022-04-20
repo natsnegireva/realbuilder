@@ -10,7 +10,6 @@ public class Circle extends Figura {
     public double Area (){
         return Math.PI * a * a;
     }
-
     public void PrintArea(){
         System.out.println("Площадь круга: "+ Area());
     }
