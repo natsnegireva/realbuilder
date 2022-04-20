@@ -3,7 +3,6 @@ package com.geekbrains.realbuilder.builder;
 public class PersonApplication {
 
 	public static void main(String[] args) {
-
 		Person person = new Person.PersonBuilder()
 				.firstName("Nikolay").middleName("Vasilievich").lastName("Sedov").build();
 

@@ -1,5 +1,6 @@
 package com.geekbrains.realbuilder.polymorphism;
 
+
 public class Triangle extends Figura {
     int a;
     int b;

@@ -75,6 +75,7 @@ public class Person {
                 return stringBuilder.toString();
     }
 
+    // вложенный класс
     public static class PersonBuilder {
         protected String firstName;
         protected String lastName;

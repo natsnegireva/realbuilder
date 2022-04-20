@@ -1,5 +1,6 @@
 package com.geekbrains.realbuilder.polymorphism;
 
+
 public class PolyApplication {
     public static void main(String[] args) {
         Square square = new Square(5);
