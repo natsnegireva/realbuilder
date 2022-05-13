@@ -8,6 +8,14 @@ public class MyArrayList<T> {
         arr = (T[]) new Object[10];
     }
 
+    public int getSize() {
+        return size;
+    }
+
+    public T get(int i) {
+        return arr[i];
+    }
+
     public void add(int index, T item) {
         for (int i = size; i > index; i--)
             arr[i] = arr[i - 1];
@@ -33,11 +41,4 @@ public class MyArrayList<T> {
         return -1;
     }
 
-    public int getSize() {
-        return size;
-    }
-
-    public T get(int i) {
-        return arr[i];
-    }
 }

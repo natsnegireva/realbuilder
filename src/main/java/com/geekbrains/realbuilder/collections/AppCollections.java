@@ -8,6 +8,11 @@ public class AppCollections {
         Students.add(2 ,"Lana");
         Students.add(3 ,"Stas");
         Students.add(4 ,"Alex");
+        Students.remove(4);
+        for( int i=0; i<Students.getSize(); i++){
+            System.out.println(Students.get(i));
+        }
+        System.out.println(Students.find("Nika"));
 
         MyLinkedList Students1 = new MyLinkedList();
         Students1.add("Nika", 0);
@@ -15,14 +20,6 @@ public class AppCollections {
         Students1.add("Lana", 2);
         Students1.add("Stas", 3);
         Students1.add("Alex",4);
-
-
-        Students.remove(4);
-        for( int i=0; i<Students.getSize(); i++){
-            System.out.println(Students.get(i));
-        }
-        System.out.println(Students.find("Nika"));
-
         Students1.remove(3);
         Students1.reverse();
         for (int i = 0; i < Students1.getSize(); i++) {
