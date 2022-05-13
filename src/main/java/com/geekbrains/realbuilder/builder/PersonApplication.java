@@ -1,6 +1,7 @@
 package com.geekbrains.realbuilder.builder;
 
 public class PersonApplication {
+	// Проверка: Если класс создается билдером, то конструктор такого класса обычно делают приватным
 
 	public static void main(String[] args) {
 		Person person = new Person.PersonBuilder()
