@@ -7,14 +7,6 @@ public class MyLinkedList<T> {
     public MyLinkedList(){
     }
 
-    private static class Node<E> {
-        E data;
-        Node<E> next;
-        Node( E data){
-            this.data=data;
-        }
-    }
-
     public void add(T item, int index) {
         if( index<0 || index>size){
             throw new IndexOutOfBoundsException("" + index);
@@ -92,5 +84,12 @@ public class MyLinkedList<T> {
             current = Next;
         }
         head = prev;
+    }
+    private static class Node<E> {
+        E data;
+        Node<E> next;
+        Node( E data){
+            this.data=data;
+        }
     }
 }
