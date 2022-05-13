@@ -1,6 +1,8 @@
 package com.geekbrains.realbuilder.polymorphism;
 
-public class Figura {
+public abstract class Figura {
+    // Проверка: Класс фигуры нужно сделать абстрактным
+
     public double Area (){
         return 0;
     }

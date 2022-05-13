@@ -2,8 +2,7 @@ package com.geekbrains.realbuilder.codeArr;
 
 public class Lorry extends Car, Moveable, Stopable {
     @Override
-    void open() {
-    }
+    void open() {}
 
     @Override
     public void move() {

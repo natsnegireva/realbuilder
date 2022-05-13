@@ -10,5 +10,4 @@ public class decisionApp {
 
     // я бы сделала 3 класса Car и Lorry, LightWeightCar с наследованием от Car,
     // Car чертеж, Lorry, LightWeightCar - наследники
-
 }

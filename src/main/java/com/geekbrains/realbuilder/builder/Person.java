@@ -75,7 +75,7 @@ public class Person {
                 return stringBuilder.toString();
     }
 
-    public static class PersonBuilder {
+public static class PersonBuilder {
         protected String firstName;
         protected String lastName;
         protected String middleName;
@@ -143,5 +143,5 @@ public class Person {
             return (firstName != null && lastName != null && middleName != null
                     && !firstName.trim().isEmpty() && !lastName.trim().isEmpty() && !middleName.trim().isEmpty());
         }
-    }
+}
 }
