@@ -4,16 +4,16 @@ public class MyArrayList<T> {
     private final T[] arr;
     private int size;
 
+    public T get(int i) {
+        return arr[i];
+    }
+
     public MyArrayList() {
         arr = (T[]) new Object[10];
     }
 
     public int getSize() {
         return size;
-    }
-
-    public T get(int i) {
-        return arr[i];
     }
 
     public void add(int index, T item) {
