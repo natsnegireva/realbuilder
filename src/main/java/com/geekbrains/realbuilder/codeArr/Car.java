@@ -1,6 +1,6 @@
 package com.geekbrains.realbuilder.codeArr;
 
-public abstract class Car {
+public abstract class Car<Engine> {
     public Engine engine;
     private String color;
     private String name;
